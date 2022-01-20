@@ -1,4 +1,4 @@
-package BaiTapVeNha;
+package BaiTapVeNha.BaiTapXoayHinh;
 
 public class HinhTamGiac {
     String hinhTamGiac;
@@ -16,7 +16,7 @@ public class HinhTamGiac {
 
     void phatAmThanhHinhTamGiac()
     {
-        fileNhacHinhTamGiac = "Phat Ra Am Thanh Hinh Tam Giac";
+        fileNhacHinhTamGiac = "Am thanh xoay";
         System.out.println(fileNhacHinhTamGiac);
     }
 }

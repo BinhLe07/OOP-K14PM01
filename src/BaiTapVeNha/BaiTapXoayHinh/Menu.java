@@ -1,4 +1,4 @@
-package BaiTapVeNha;
+package BaiTapVeNha.BaiTapXoayHinh;
 
 import java.util.Scanner;
 
@@ -8,27 +8,19 @@ public class Menu {
         Scanner input = new Scanner(System.in);
         int chonChucNang;
         System.out.println("Menu");
-        System.out.println("1. An Chuot Vao Hinh Tron ");
-        System.out.println("2. An Chuot Vao Tam Giac ");
-        System.out.println("3. An Chuot Vao Chu Nhat");
-        System.out.println("An Nut 1->3 ");
+        System.out.println("1.Xoay hinh tam giac");
+        System.out.println("2.Xoay hinh chu nhat");
+        System.out.println("Lua chon 1 hoac 2:  ");
         chonChucNang = input.nextInt();
 
         if( chonChucNang == 1)
-        {
-            HinhTron hinhTron = new HinhTron();
-            hinhTron.xoayHinhTron();
-            hinhTron.phatAmThanhHinhTron();
-        }
-
-        if( chonChucNang == 2)
         {
             HinhTamGiac hinhTamGiac = new HinhTamGiac();
             hinhTamGiac.xoayHinhTamGiac();
             hinhTamGiac.phatAmThanhHinhTamGiac();
         }
 
-        if( chonChucNang == 3)
+        if( chonChucNang == 2)
         {
             HinhChuNhat hinhChuNhat = new HinhChuNhat();
             hinhChuNhat.xoayHinhChuNhat();
