@@ -14,10 +14,10 @@ public class StudentK14TestDrive {
         {
             studentK14.nhapThongTinStudent();      
             studentK14.show();
+            System.out.println("-----------------------");
             System.out.println("1. Nhap Lai Thong Tin ");
             System.out.println("2. Thoat Ra");
             cs = input.nextInt();
-            System.out.println("-----------------------------------------");
         }
 
     }    

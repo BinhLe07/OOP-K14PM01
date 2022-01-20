@@ -25,19 +25,20 @@ public class StudentK14 {
 
     void nhapThongTinStudent()
     {
-        System.out.println("Ten: ");
+        System.out.println("Nhap ho va ten: ");
         name_Student = input.nextLine();
-        System.out.println("MSSV: ");
+        System.out.println("Nhap MSSV: ");
         mssv = input.nextInt();
-        System.out.println("Tuoi: ");
+        System.out.println("Nhap tuoi: ");
         old_Student = input.nextInt();
         input.nextLine();
-        System.out.println("Que Quan: ");
+        System.out.println("Nhap que quan: ");
         address_Student = input.nextLine();
     }
 
     void show()
     {
+        System.out.println("--------------------------------");
         System.out.println("Ten: "+ name_Student);
         System.out.println("MSSV: "+ mssv);
         System.out.println("Tuoi: "+ old_Student);
