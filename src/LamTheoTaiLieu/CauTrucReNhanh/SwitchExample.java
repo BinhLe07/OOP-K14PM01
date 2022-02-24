@@ -13,23 +13,23 @@ public class SwitchExample {
         {
             case 'A':
             {
-                System.out.println("Excellent!"); // Tuyệt vời
+                System.out.println("Excellent!"); //Tuyệt vời
                 break;
             }
 
             case 'B':
             {
-                System.out.println("Great!"); // Tuyệt
+                System.out.println("Great!"); //Tuyệt
                 break;
             }
 
             case 'C':
             case 'D':
-                System.out.println("Well done!"); // Tốt
+                System.out.println("Well done!"); //Tốt
                 break;
             case 'F':
             {
-                System.out.println("Sorry, you failed. "); // Thất bại
+                System.out.println("Sorry, you failed. "); //Thất bại
                 break;
             } 
             default:

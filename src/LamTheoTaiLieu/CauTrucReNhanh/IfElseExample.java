@@ -10,7 +10,7 @@ public class IfElseExample {
         System.out.println("Nhap diem: ");
         score = input.nextDouble();
 
-        if(score < 4.0)//
+        if(score < 4.0)
             System.out.println("Xin loi, ban da rot khoa hoc. ");
         else
             System.out.println("Xin chuc mung, ban da vuot qua khoa hoc. ");
