@@ -1,0 +1,17 @@
+package LamTheoTaiLieu.EpKieuTrongJava;
+
+public class EpKieuTuongMinh {
+    public static void main(String[] args) 
+    {
+        double a = 3.5;
+        double b = 9.5;  
+
+        System.out.println("a = "+ a);
+        System.out.println("b = "+ b);
+
+        int c = (int)a;
+        int d = (int)b;//Không thể bỏ (int) đi
+        System.out.println("c = "+ c);
+        System.out.println("d = "+ d); 
+    }    
+}
