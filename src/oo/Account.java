@@ -10,6 +10,8 @@ public class Account {
     Scanner input = new Scanner(System.in);
 
     //fuction
+
+    //gui tien
     void depositAmount(){
         System.out.print("Nhap so tien can gui: ");
         int depositAmount = 0;
