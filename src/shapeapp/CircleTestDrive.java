@@ -3,7 +3,7 @@ package shapeapp;
 public class CircleTestDrive {
     public static void main(String[] args) {
         
-        Circle circle = new Circle("fileMusic");
+        Circle circle = new Circle("hinhtron.aif");
         circle.rotate();
     }
 }
