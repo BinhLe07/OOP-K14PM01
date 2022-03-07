@@ -13,10 +13,18 @@ public class dog {
         this.breed=breed;
     }
     void bark(){
-        System.out.println("Gau..gau.gau");
+        if(size > 10){
+            System.out.println("Ang ang ang");
+        }
+        else{
+            System.out.println("Gau gau gau");
+        }
     }
     void run(){
         System.out.println("Runningggggggggg!!!!!!!!!");
+    }
+    void setBigger(){
+        size = +20;
     }
     void show(){
         System.out.println("Dog name: "+name);
