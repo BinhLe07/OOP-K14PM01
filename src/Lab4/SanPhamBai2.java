@@ -1,4 +1,4 @@
-package oo;
+package Lab4;
 
 import java.util.Scanner;
 
@@ -18,6 +18,4 @@ public class SanPhamBai2 {
         System.out.println("Ten san pham: "+tenSP);
         System.out.println("Gia ban: "+donGia);
     }
-
-
 }

@@ -1,15 +1,16 @@
-package oo;
+package Lab4;
 
-public class SanPhamTestDrive {
+import java.util.Scanner;
+
+public class SanPhamBai3TestDrive {
     public static void main(String[] args) {
-        SanPham sanpham = new SanPham("San pham 1", 8, 2);
+        SanPhamBai3 sanpham = new SanPhamBai3("San pham 1", 8, 2);
 
-        //sanpham.nhap();
         sanpham.xuat();
         System.out.println("Thue nhap khau: "+sanpham.getThueThuNhap(1));
 
-        SanPham sanpham2 = new SanPham("San pham 2", 20);
-        //sanpham2.nhap();
+        SanPhamBai3 sanpham2 = new SanPhamBai3("San pham 2", 20);
+        
         sanpham2.xuat();
         System.out.println("Thue nhap khau: "+sanpham2.getThueThuNhap(1));
     }
