@@ -1,4 +1,4 @@
-package shapeapp;
+package oo;
 
 public class SquareTestDrive {
     public static void main(String[] args) {

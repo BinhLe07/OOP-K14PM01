@@ -1,4 +1,4 @@
-package shapeapp;
+package oo;
 
 public class Square {
     //attribute
