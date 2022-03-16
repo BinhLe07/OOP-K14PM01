@@ -69,8 +69,8 @@ public class ThuVien {
     }
     public String toString() 
     {
-        return " MA SACH: " + this.maSach + " / " + " NHA XUAT BAN: " +this.nhaXuatBan + "/ " + " SO LUONG: " + this.soLuong +
-         " / " + " DON GIA: " + this.donGia + " / " + " NGAY NHAP: " + this.ngayNhap; 
+        return " Ma sach: " + this.maSach + " / " + " Nha xuat ban: " +this.nhaXuatBan + "/ " + " So luong: " + this.soLuong +
+         " / " + " Don gia: " + this.donGia + " / " + " Ngay nhap: " + this.ngayNhap; 
     }
 
 
